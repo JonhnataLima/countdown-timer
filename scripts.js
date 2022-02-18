@@ -5,7 +5,7 @@
  *
  */
 
-let release = new Date("2022-04-30 00:00:00").getTime()
+let release = new Date("2022-04-03 12:00:00").getTime()
 
 function getTimeRemaining(release) {
   const today = new Date().getTime()
@@ -35,9 +35,9 @@ function initializeCountdownTimer(id, release) {
     clock.innerHTML = `${String(getTimeRemaining(release).days).padStart(
       2,
       "0"
-    )}:${String(getTimeRemaining(release).hours).padStart(2, "0")}:${String(
+    )} : ${String(getTimeRemaining(release).hours).padStart(2, "0")} : ${String(
       getTimeRemaining(release).minutes
-    ).padStart(2, "0")}:${String(getTimeRemaining(release).seconds).padStart(
+    ).padStart(2, "0")} : ${String(getTimeRemaining(release).seconds).padStart(
       2,
       "0"
     )}`
