@@ -64,18 +64,7 @@ main {
   align-items: center;
   justify-content: center;
 }
-.subscribe {
-  width: 100vw;
-  height: 100vh;
-  max-height: 600px;
-  max-width: 900px;
-  /*
-  min-width: 605px;
-  min-height: 435px;*/
-  display: grid;
-  align-items: center;
-  justify-content: flex-start;
-}
+.subscribe,
 .image {
   width: 100vw;
   height: 100vh;
@@ -83,9 +72,14 @@ main {
   max-width: 900px;
   /*
   min-width: 605px;
+  
   min-height: 435px;*/
   display: grid;
   align-items: center;
+}
+.subscribe,
+.counter {
+  justify-content: flex-start;
 }
 
 /*
