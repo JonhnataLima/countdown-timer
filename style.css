@@ -55,15 +55,12 @@ main {
 
   min-height: 440px;
 
-  /*
   margin: auto;
-  */
-
+  /*
   margin-top: 9.375rem;
   margin-bottom: 11.625rem;
   margin-right: 3.75rem;
-  margin-left: 3.75rem;
-
+  margin-left: 3.75rem;*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,8 +75,10 @@ main {
   min-width: 605px;
   
   min-height: 435px;*/
-  display: grid;
+  /*display: grid;*/
+  display: flex;
   align-items: center;
+  flex-direction: column;
 }
 .subscribe,
 .counter {
