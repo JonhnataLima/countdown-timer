@@ -67,8 +67,8 @@ main {
 .subscribe {
   width: 100vw;
   height: 100vh;
-  max-height: 300px;
-  max-width: 500px;
+  max-height: 600px;
+  max-width: 900px;
   /*
   min-width: 605px;
   min-height: 435px;*/
