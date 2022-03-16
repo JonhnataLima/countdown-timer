@@ -80,6 +80,8 @@ main {
 .subscribe,
 .counter {
   justify-content: flex-start;
+  max-height: 600px;
+  max-width: 900px;
 }
 
 /*
